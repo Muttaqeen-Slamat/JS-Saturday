@@ -63,7 +63,9 @@ function updateProduct(item){
         console.log(products);
         adminContent()
         location.reload()
-    }catch{}
+    }catch(e){
+        console.log(e.message);
+    }
 }
 
 
@@ -77,5 +79,7 @@ function deleteProduct(){
         })
         products.splice(index, 1)
         localStorage.setItem('products', JSON.stringify(products))
+    }catch(e){
+        console.log(e.message);
     }
 }

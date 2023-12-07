@@ -93,3 +93,22 @@ function sorting() {
 
 //sort.addEventListener('click', ()=> {try{let sorted = products.sort( (arg1, arg2)=>{return agr2.id - arg1.id})displayproducts(sorted)}catch(e){})
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
